@@ -18,7 +18,7 @@
    - Support, Confidence, Lift metrics
    - Excel Conditional Formatting
                                                                                                                              
-   4. **GenAI Gemini Prompts - Zomato Data Analysis**
+4. **GenAI Gemini Prompts - Zomato Data Analysis**
    - Created 5 multi-turn prompts using Google Gemini
    - Tasks: Data cleaning, Sales analysis, Visualization, Recommendations
    - Output: PDF with prompts + observations                                                                                                                          
