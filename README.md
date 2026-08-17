@@ -28,33 +28,14 @@
 - Data Visualization, Market Basket Analysis - Google Gemini, Prompt Engineering
 - Data Analysis, Report Writing
 
-## 4. EV Pulse Analytics Dashboard
-**File**: `EV_Pulse_Analytics_Dashboard.pbix`
+## 4. **EV Pulse Analytics Dashboard**
+**Files**:
+- Dashboard: `EV_pulse_Dashboard/EV_Pulse_Analytics_Dashboard.pbix`
+- Architecture: `EV_pulse_Dashboard/EV_Architecture_Diagram.pdf`
+- Presentation: `EV_pulse_Dashboard/EV_Final_PPT.pdf`
+- **Description**: Retail sales performance dashboard tracking revenue, top products, and regional sales.
 
-**Description**:  
-EV sales and revenue analytics dashboard. Tracks category performance, regional sales, and monthly trends.
+**Key Metrics**: Total Revenue, Top Category, Monthly Trend
 
-**Key Features**:
-- Revenue by Category with custom colors
-- Revenue by Region
-- Monthly Sales Trend
-- Interactive filters and slicers
-- Professional theme applied
- 
-- **Files**:
-- Dashboard: `EV_Pulse_Dashboard/EV_Pulse_Analytics_Dashboard.pbix`
-- Architecture: `EV_Pulse_Dashboard/EV_Architecture.png`  
-- Presentation: `EV_Pulse_Dashboard/EV_Pulse_Presentation.pptx`
-
-**Tools**: Power BI Desktop
-
-**Last Updated**: Aug 2026
-
-upagna_n/
-├── README.md
-├── Retail_Dashboard/
-│   └── Retail_Sales_Dashboard.pbix
-└── EV_Pulse_Dashboard/
-    ├── EV_Pulse_Analytics_Dashboard.pbix
-    ├── EV_Architecture.png
-    └── EV_Pulse_Presentation.pptx
+## 5. **Retail Sales Dashboard**
+**File**: `Retail_Dashboard/Retail_Sales_Dashboard.pbix`
