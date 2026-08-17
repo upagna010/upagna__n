@@ -36,9 +36,15 @@ EV sales and revenue analytics dashboard. Tracks category performance, regional 
 
 **Key Features**:
 - Revenue by Category with custom colors
-- Revenue by Region 
+- Revenue by Region
 - Monthly Sales Trend
+- Interactive filters and slicers
 - Professional theme applied
+ 
+- **Files**:
+- Dashboard: `EV_Pulse_Dashboard/EV_Pulse_Analytics_Dashboard.pbix`
+- Architecture: `EV_Pulse_Dashboard/EV_Architecture.png`  
+- Presentation: `EV_Pulse_Dashboard/EV_Pulse_Presentation.pptx`
 
 **Tools**: Power BI Desktop
 
