@@ -49,3 +49,12 @@ EV sales and revenue analytics dashboard. Tracks category performance, regional 
 **Tools**: Power BI Desktop
 
 **Last Updated**: Aug 2026
+
+upagna_n/
+├── README.md
+├── Retail_Dashboard/
+│   └── Retail_Sales_Dashboard.pbix
+└── EV_Pulse_Dashboard/
+    ├── EV_Pulse_Analytics_Dashboard.pbix
+    ├── EV_Architecture.png
+    └── EV_Pulse_Presentation.pptx
