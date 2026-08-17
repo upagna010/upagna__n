@@ -27,3 +27,19 @@
 - Conditional Formatting, Slicers
 - Data Visualization, Market Basket Analysis - Google Gemini, Prompt Engineering
 - Data Analysis, Report Writing
+
+## 4. EV Pulse Analytics Dashboard
+**File**: `EV_Pulse_Analytics_Dashboard.pbix`
+
+**Description**:  
+EV sales and revenue analytics dashboard. Tracks category performance, regional sales, and monthly trends.
+
+**Key Features**:
+- Revenue by Category with custom colors
+- Revenue by Region 
+- Monthly Sales Trend
+- Professional theme applied
+
+**Tools**: Power BI Desktop
+
+**Last Updated**: Aug 2026
