@@ -33,11 +33,7 @@
 - Dashboard: `EV_pulse_Dashboard/EV_Pulse_Analytics_Dashboard.pbix`
 - Architecture: `EV_pulse_Dashboard/EV_Architecture_Diagram.pdf`
 
-# Retail Sales Dashboard - Power BI
-
-### Overview
-Analyzed 412K revenue data with interactive dashboard.
-
+# Retail Sales Dashboard - Power 
 ### Pages
 1. Overview - Total Revenue 412.64K, Gross Profit 133.49K, Segment & Region Analysis
 2. Detailed Analysis - Product & Category Performance  
@@ -54,5 +50,3 @@ Analyzed 412K revenue data with interactive dashboard.
 
 **Key Metrics**: Total Revenue, Top Category, Monthly Trend
 
-## 5. **Retail Sales Dashboard**
-**File**: `Retail_Dashboard/Retail_Sales_Dashboard.pbix`
