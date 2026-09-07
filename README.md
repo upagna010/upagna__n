@@ -50,27 +50,36 @@
 
 **Key Metrics**: Total Revenue, Top Category, Monthly Trend
 
-## 🌱 7. AI Profitability Intelligence - Agriculture [NEW] 🚀
+# 7. Agricultural Profitability Intelligence - India 2021-2024
 
-**📁 Files:** 
-- `Agriculture_profitability_Dashboard.pbix` - Main Power BI Dashboard
-- Architecture Diagram, System Flowchart, Project PPT, Report PDF
+### Dashboard Preview
+![Dashboard](Agricultural-Profitability-Intelligence-India-2021-2024/Agriculture_Architecture.png)
 
-**📌 Overview:** 
-An end-to-end AI system that predicts agriculture profitability and identifies loss factors. It combines Machine Learning predictions with an interactive Power BI dashboard to help farmers make data-driven decisions and reduce losses.
+### Pages
+1.  **Overview** - Total Profit 31M, Avg Yield 59.94, Top Crop Sugarcane (185K), Year-wise & Season-wise Analysis
+2.  **Profitability Insights** - Most Profitable Crop Analysis, Year-wise Profit Trend (Peak 2022 - 68.7K), Season-wise Profitability (Kharif 40.89%)
+3.  **Cost & Market Analysis** - Fertilizer vs Profit, Market Price Trend (2021-2023), Irrigation & Rainfall Impact
 
-**✨ Features:**
-- Profit/Loss Prediction using ML Model
-- Cost vs Revenue Breakdown
-- Crop-wise & Season-wise Profitability Analysis
-- Interactive Slicers (Crop, Season, Region, Soil Type)
-- Loss Factor Identification (Weather, Cost, Yield)
+### Features
+-   **5 Interactive Slicers:** State | District | Crop | Season | Year | Irrigation
+-   **Green Theme Agriculture UI:** Professional dashboard design
+-   **KPIs:** Total Profit, Average Yield, Average Rainfall, Most Profitable Crop
+-   **Visuals:** Bar Chart, Line Chart, Donut Chart, Scatter Plot, KPI Cards
 
-**🛠️ Tools & Tech:** Power BI, DAX, Data Modeling, Python (ML), Excel, AI Tools
+### Project Files
+| File Type | File Name | Description |
+| :--- | :--- | :--- |
+| **Dashboard** | `Agriculture_profitability_Dashboard.pbix` | Main Power BI Dashboard File |
+| **Architecture** | `Agriculture_Architecture.png` | System Architecture Diagram |
+| **Flowchart** | `Agriculture_Flowchart.pdf` | Project Workflow & Process Flow |
+| **Diagram** | `Agriculture_diagram.pdf` | Data Model & Relationship Diagram |
+| **Presentation** | `Agriculture_PPT.pdf` / `.pptx` | Full Project Presentation |
 
-**📊 Key Metrics:** Total Profit/Loss Prediction, Cost Analysis, Yield Insights, ROI Percentage
+### Tools & Techniques
+-   **Tools:** Power BI, Power Query, DAX, Data Modeling, Excel
+-   **DAX Measures:** Total Profit, Average Yield, Profit Margin, YoY Growth
+-   **Data Cleaning:** Power Query for State/District/Crop data transformation
 
-**🎯 Key Insights:** 
-- Identifies which crops are most profitable by season
-- Shows cost overrun reasons to minimize farmer losses
+-   **Description:** End-to-end agricultural profitability intelligence system analyzing profitability across India (2021-2024). Provides insights on most profitable crops (Sugarcane 185K), seasonal trends, and fertilizer cost vs profit correlation to help farmers and stakeholders make data-driven decisions.
 
+**Key Metrics:** Total Profit 31M | Best Crop:Turmeric (40.89%) | Avg Yield: 59.94 | Avg Rainfall: 72.81
