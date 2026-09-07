@@ -83,3 +83,14 @@
 -   **Description:** End-to-end agricultural profitability intelligence system analyzing profitability across India (2021-2024). Provides insights on most profitable crops (Sugarcane 185K), seasonal trends, and fertilizer cost vs profit correlation to help farmers and stakeholders make data-driven decisions.
 
 **Key Metrics:** Total Profit 31M | Best Crop:Turmeric (40.89%) | Avg Yield: 59.94 | Avg Rainfall: 72.81
+
+### 9. AI Tools ROI Calculator - Startup AI Subscription & Productivity Intelligence
+**Project Overview:** This Tableau dashboard analyzes the ROI of 8 different AI tools used in a startup. It tracks AI subscription costs vs productivity gained.
+**Key Insights:**
+- Total Spend: $306K | Hours Saved: 100K hrs | ROI: 395% | Overall Profit: $1.2M
+- Most Profitable Tool: Adobe Firefly
+- Highest ROI % Tool: GitHub Copilot & Notion AI
+- Content Team uses AI the most
+**Tools Analyzed:** Adobe Firefly, Notion AI, ChatGPT Plus, GitHub Copilot, Midjourney, Synthesia, Jasper, Canva Pro
+**Tools Used:** Tableau, Excel
+**Folder:** [AI-Tools-ROI-Calculator](./AI-Tools-ROI-Calculator/)
