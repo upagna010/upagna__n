@@ -94,3 +94,67 @@
 **Tools Analyzed:** Adobe Firefly, Notion AI, ChatGPT Plus, GitHub Copilot, Midjourney, Synthesia, Jasper, Canva Pro
 **Tools Used:** Tableau, Excel
 **Folder:** [AI-Tools-ROI-Calculator](./AI-Tools-ROI-Calculator/)
+
+  # 🎬 Netflix Content Analysis Dashboard - Auspify Internship
+
+> Power BI internship project analyzing 8807 Netflix titles to uncover content, geographic, and audience trends.
+
+## 📌 Internship Overview
+This project is part of **Auspify Technologies - Power BI Internship**. Completed **5 out of 6 tasks** as per the internship guidelines.
+
+**GitHub Repo:** `upagna010/upagna__n`
+
+## ✅ Tasks Completed
+
+| Task No | Dashboard Name | Description | Status |
+|---|---|---|---|
+| Task 2 | Content Overview | KPI Cards, Movies vs TV Shows, Rating Distribution | ✅ Done |
+| Task 3 | Global Content Insights | Country-wise Map, Top Producing Countries | ✅ Done |
+| Task 4 | Content Growth & Trends | Year-wise additions, 2019-2020 Peak Analysis | ✅ Done |
+| Task 5 | Genre & Audience Deep Dive | Genre Popularity, Rating vs Type | ✅ Done |
+| Task 6 | Executive Summary | Final Business Insights & Recommendations | ✅ Done |
+
+# 🎬 Netflix Content Analysis - Auspify Internship
+
+### 👩‍💻 Intern: Upagna | Internship: Auspify Technologies
+### 📅 Project: Power BI Dashboard Analysis | Tasks: 5/6 Completed
+
+---
+
+### 📌 About Project
+Analyzed 8807 Netflix titles to find content trends, country insights, and audience behavior using Power BI.
+
+### ✅ Tasks Completed
+| Task | Dashboard | Status |
+|------|-----------|--------|
+| Task 2 | Content Overview - KPIs, Movies vs TV Shows, Ratings | ✅ Done |
+| Task 3 | Global Insights - Country Map & Top Producers | ✅ Done |
+| Task 4 | Growth Trends - Year-wise Content Addition | ✅ Done |
+| Task 5 | Genre Deep Dive - Genre & Rating Analysis | ✅ Done |
+| Task 6 | Executive Summary - Business Recommendations | ✅ Done |
+
+### 📂 Files in This Repo
+- `Auspify_Netflix_Project.pbix` - Main Power BI File
+- `Auspify_Netflix_Project/` - Folder with Screenshots
+- `README.md` - This file
+- Other Projects: EV Pulse, Ecommerce, Hospital, Retail, Superstore
+
+### 📊 Key Insights
+- **Total Titles:** 8807 (Movies 69.6%, TV Shows 30.4%)
+- **Top Country:** United States
+- **Peak Year:** 2019-2020 lo ekkuva content add ayindi
+- **Top Rating:** TV-MA 36% - Mature audience
+- **Top Genre:** Dramas & International Movies
+
+### 🛠️ Tools Used
+- Power BI Desktop, Power Query, DAX, Data Modeling
+
+### 📸 Screenshots
+5 Dashboards screenshots are uploaded in this repo for evaluation.
+
+### 🔗 Submission Link
+**GitHub Repo:** https://github.com/upagna010/upagna__n
+**Hashtags:** #Auspify #AuspifyTechnologies #PowerBI
+
+---
+> Prepared for Auspify Internship Evaluation
