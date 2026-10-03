@@ -159,31 +159,38 @@ Analyzed 8807 Netflix titles to find content trends, country insights, and audie
 ---
 > Prepared for Auspify Internship Evaluation
 
+# 🌬️ Air Quality Analytics - Python & Power BI
+
+![Dashboard Screenshot](Dashboard_image_screenshot.png)
+
+### 📊 Project Overview
+End-to-end pipeline that collects real-time AQI data via API, cleans with Python, and visualizes in Power BI.
+
+### 🛠️ Tech Stack
+- Python (Pandas, Requests)
+- Power BI
+- OpenWeather API
+
+### 📂 Project Structure
+- `main.py` - Main automation script
+- `api_collection.py` - API fetching
+- `Dashboard.pbix` - Power BI Dashboard
+- `Dashboard_image_screenshot.png` - Preview
+
+### 🚀 How to Run
+```bash
 git clone https://github.com/upagna010/upagna__n.git
-
+cd Air-Quality-Analytics-Python-PowerBI
 pip install -r requirements.txt
-
-API_KEY=your_api_key_here
-
 python main.py
 
-### 📊 Insights from Dashboard
+📊 Insights from Dashboard
+PM2.5 is the dominant pollutant: Found to be the major contributor to poor AQI across most cities.
+Peak pollution hours: AQI levels consistently peak during evening hours (6 PM - 10 PM) due to traffic and industrial activity.
+City comparison: Delhi and nearby regions showed the highest AQI levels (>150), while southern cities maintained moderate AQI (70-90).
+Strong correlation: Observed a high positive correlation (0.85) between PM2.5 and PM10 levels.
 
-- **PM2.5 is the dominant pollutant:** Found to be the major contributor to poor AQI across most cities.
-- **Peak pollution hours:** AQI levels consistently peak during evening hours (6 PM - 10 PM) due to traffic and industrial activity.
-- **City comparison:** Delhi and nearby regions showed the highest AQI levels (>150), while southern cities maintained moderate AQI (70-90).
-- **Strong correlation:** Observed a high positive correlation (0.85) between PM2.5 and PM10 levels.
-- **Health impact:** Over 60% of recorded data falls under 'Unhealthy for Sensitive Groups' category.
-### 📂 Project Structure
-### 👩💻 Author
+👩‍💻 AuthorUpagna Sai - Aspiring Data Analyst | Python | Power BI
+GitHub: @upagna010Prepared for Auspify Internship Evaluation
+#️⃣ #Auspify #AuspifyTechnologies #PowerBI
 
-**Upagna**
-Aspiring Data Analyst | Python, SQL, Power BI
-
-- Passionate about turning raw data into meaningful insights
-- Focused on building end-to-end data projects
-- Open to internships and data analytics opportunities
-
-🔗 [GitHub](https://github.com/upagna010) | [LinkedIn](https://www.linkedin.com/in/upagna010)
-
-⭐ If you found this project helpful, please consider giving it a star!
