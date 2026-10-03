@@ -158,3 +158,46 @@ Analyzed 8807 Netflix titles to find content trends, country insights, and audie
 
 ---
 > Prepared for Auspify Internship Evaluation
+
+# 👩‍💻 Upagna - Data Analytics Portfolio
+
+Welcome to my data analytics projects collection! This repo contains my end-to-end projects built using Python, SQL, and Power BI.
+
+### 📁 Projects in this Repo
+
+#### 1. 🌬️ Smart Air Quality Intelligence - Hyderabad
+**Folder:** `/src/air_quality` & `/outputs`
+**Tech:** Python (API), Pandas, Power BI
+**About:** Real-time AQI monitoring for Hyderabad. Fetched live data from OpenWeather API, cleaned 1000+ records, built dashboard for pollution insights.
+**Files:** `api_collection.py`, `db_loader.py`, `main.py`, `air_quality_cleaned.csv`, `Dashboard.pbix`
+**Insights:** PM2.5 hotspots, peak pollution hours, health advisory.
+
+#### 2. 📊 [Your 2nd Project Name Here]
+**Folder:** `/project2`
+**Tech:** 
+**About:** 
+
+#### 3. 📊 [Your 3rd Project Name Here]
+**Folder:** `/project3`
+**Tech:** 
+**About:** 
+
+---
+
+### 🛠️ Skills Demonstrated
+- **Languages:** Python, SQL
+- **Libraries:** Pandas, NumPy, Requests
+- **Visualization:** Power BI, Matplotlib
+- **Tools:** Git, GitHub, API Handling, ETL Pipeline
+
+### 🚀 How to Run Any Project
+```bash
+# Clone repo
+git clone https://github.com/upagna010/upagna__n.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Go to specific project
+cd src/air_quality
+python main.py
