@@ -1,4 +1,4 @@
-# 📊 Data Analytics & Business Intelligence Portfolio | Power BI | Excel | Tableau
+# 📊 Data Analytics & Business Intelligence Portfolio | Power BI | Excel | Tableau | Python
 
 ## Projects Included
 
