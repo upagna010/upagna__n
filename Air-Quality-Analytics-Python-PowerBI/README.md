@@ -1,43 +1,76 @@
-# 🌬️ Air Quality Analytics - Python & Power BI
+# 🌿 Smart Air Quality Intelligence System | Python + PowerBI
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+> Production-grade End-to-End Data Engineering & Analytics Project for Hyderabad Air Quality Monitoring
 
-> End-to-end data pipeline that collects real-time air quality data via API, cleans & transforms it using Python, and visualizes key pollution metrics in an interactive Power BI dashboard.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
 
-### 📸 Dashboard Preview
-![Dashboard Screenshot](screenshot.png)
+### 📌 Overview
+An automated pipeline that fetches **real-time air pollution data** from **OpenAQ API**, cleans & transforms it using **Pandas**, loads it into **MySQL & CSV**, and visualizes actionable insights in **PowerBI**. Built for **Data Analyst / Data Engineer interviews**.
 
+This project demonstrates **API Ingestion, Data Cleaning, Database Loading, and Business Intelligence** - end to end.
 
-### ⚙️ How to Run Locally
-1. Clone the repo
+### 🏗️ Architecture
+OpenAQ API (Real-time) → Python Ingestion (api_collection.py) → 
+Data Cleaning (Pandas) → Storage (MySQL + CSV) → PowerBI Dashboard → Insightsjavascript
+### 📁 Project Structure (Industry Standard)Air-Quality-Analytics-Python-PowerBI/
+├── src/
+│   └── Smart_Air_Quality_Intelligence_System/
+│       ├── init.py
+│       ├── api_collection.py    # Fetches data from OpenAQ v3 & v2 fallback
+│       ├── db_loader.py         # MySQL + CSV loader
+│       └── main.py              # Pipeline orchestrator
+├── outputs/
+│   ├── Smart_Air_quality_intelligence_cleaned.csv
+│   └── Dashboard.pbix
+├── Dashboard_image_screenshot.png
+├── .env.example                 # Environment template
+├── pyproject.toml               # Production packaging
+├── requirements.txt
+└── README.mdjavascript
+### 🚀 Key Features
+- ✅ **Real API with Fallback Logic** - Tries OpenAQ v3, auto-fallback to v2
+- ✅ **Production Error Handling & Logging**
+- ✅ **AQI Categorization** - Good / Moderate / Unhealthy logic
+- ✅ **Dual Storage** - CSV for PowerBI + MySQL for production
+- ✅ **.env Config Management** - Secure credential handling
+- ✅ **PowerBI Interactive Dashboard**
+
+### 📊 PowerBI Dashboard Insights
+- City-wise **PM2.5 / PM10** pollution levels
+- **AQI Category** distribution (Good, Moderate, Unhealthy)
+- **Hyderabad Hotspots** - Most polluted areas
+- Time-series trend analysis
+
+> 📸 Screenshot: `Dashboard_image_screenshot.png`
+
+### 🛠️ Tech Stack
+- **Python**: Requests, Pandas, SQLAlchemy
+- **Database**: MySQL
+- **BI**: PowerBI
+- **Tools**: python-dotenv, Logging
+
+### ⚙️ How to Run (2 mins)
 ```bash
-git clone https://github.com/upagna010/upagna__n.git
+# 1. Clone repo
+git clone https://github.com/upagna010/upagna_n.git
+cd upagna_n/Air-Quality-Analytics-Python-PowerBI
 
+# 2. Create virtual env
+python -m venv venv
+venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 
-API_KEY=your_api_key_here
+# 3. Setup env
+copy .env.example .env  # Add your DB credentials
 
+# 4. Run pipeline
 python main.py
 
-### 📊 Insights from Dashboard
+# 5. Open Dashboard.pbix in PowerBI
 
-- **PM2.5 is the dominant pollutant:** Found to be the major contributor to poor AQI across most cities.
-- **Peak pollution hours:** AQI levels consistently peak during evening hours (6 PM - 10 PM) due to traffic and industrial activity.
-- **City comparison:** Delhi and nearby regions showed the highest AQI levels (>150), while southern cities maintained moderate AQI (70-90).
-- **Strong correlation:** Observed a high positive correlation (0.85) between PM2.5 and PM10 levels.
-- **Health impact:** Over 60% of recorded data falls under 'Unhealthy for Sensitive Groups' category.
-### 📂 Project Structure
-### 👩‍💻 Author
-
-**Upagna**
-Aspiring Data Analyst | Python, SQL, Power BI
-
-- Passionate about turning raw data into meaningful insights
-- Focused on building end-to-end data projects
-- Open to internships and data analytics opportunities
-
-🔗 [GitHub](https://github.com/upagna010) | [LinkedIn](https://www.linkedin.com/in/upagna010)
-
-⭐ If you found this project helpful, please consider giving it a star!
+🔮 Future EnhancementsAirflow orchestration for daily auto-runStreamlit live web appML prediction for next day AQI👩‍💻 AuthorUpagna Tulasala
+Aspiring Data Analyst | Data Engineer | Python Developer
+📍 Hyderabad, India
+🔗 GitHub: @upagna010
