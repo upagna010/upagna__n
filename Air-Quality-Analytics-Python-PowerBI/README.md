@@ -38,12 +38,12 @@ Data Cleaning (Pandas) → Storage (MySQL + CSV) → PowerBI Dashboard → Insig
 - ✅ **PowerBI Interactive Dashboard**
 
 ### 📊 PowerBI Dashboard Insights
+### 📸 Dashboard Preview
+![Dashboard Screenshot](Dashboard_image_screenshot.png)
 - City-wise **PM2.5 / PM10** pollution levels
 - **AQI Category** distribution (Good, Moderate, Unhealthy)
 - **Hyderabad Hotspots** - Most polluted areas
 - Time-series trend analysis
-
-> 📸 Screenshot: `Dashboard_image_screenshot.png`
 
 ### 🛠️ Tech Stack
 - **Python**: Requests, Pandas, SQLAlchemy
