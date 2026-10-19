@@ -1,4 +1,4 @@
-# 🌿 Smart Air Quality Intelligence System | Python + PowerBI
+# 🌿 Smart Air Quality Intelligence System | Python + PowerBI Dashboard
 
 > Production-grade End-to-End Data Engineering & Analytics Project for Hyderabad Air Quality Monitoring
 
