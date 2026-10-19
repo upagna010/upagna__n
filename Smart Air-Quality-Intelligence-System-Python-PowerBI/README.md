@@ -1,76 +1,54 @@
-# 🌿 Smart Air Quality Intelligence System | Python + PowerBI Dashboard
-
-> Production-grade End-to-End Data Engineering & Analytics Project for Hyderabad Air Quality Monitoring
-
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)
+# 🌿 Smart Air-Quality-Intelligence-System - Python & Power BI
 
 ### 📌 Overview
-An automated pipeline that fetches **real-time air pollution data** from **OpenAQ API**, cleans & transforms it using **Pandas**, loads it into **MySQL & CSV**, and visualizes actionable insights in **PowerBI**. Built for **Data Analyst / Data Engineer interviews**.
+An end-to-end Data Analytics project that collects real-time Air Quality data via API, cleans it using Python, and visualizes pollution trends & health risks through an interactive Power BI dashboard.
 
-This project demonstrates **API Ingestion, Data Cleaning, Database Loading, and Business Intelligence** - end to end.
+### 🎯 Problem Statement
+Air pollution is increasing in Indian cities. The goal is to monitor AQI levels (PM2.5, PM10, AQI) and provide health-based insights for citizens.
 
-### 🏗️ Architecture
-OpenAQ API (Real-time) → Python Ingestion (api_collection.py) → 
-Data Cleaning (Pandas) → Storage (MySQL + CSV) → PowerBI Dashboard → Insightsjavascript
-### 📁 Project Structure (Industry Standard)Air-Quality-Analytics-Python-PowerBI/
-├── src/
-│   └── Smart_Air_Quality_Intelligence_System/
-│       ├── init.py
-│       ├── api_collection.py    # Fetches data from OpenAQ v3 & v2 fallback
-│       ├── db_loader.py         # MySQL + CSV loader
-│       └── main.py              # Pipeline orchestrator
-├── outputs/
-│   ├── Smart_Air_quality_intelligence_cleaned.csv
-│   └── Dashboard.pbix
-├── Dashboard_image_screenshot.png
-├── .env.example                 # Environment template
-├── pyproject.toml               # Production packaging
-├── requirements.txt
-└── README.mdjavascript
-### 🚀 Key Features
-- ✅ **Real API with Fallback Logic** - Tries OpenAQ v3, auto-fallback to v2
-- ✅ **Production Error Handling & Logging**
-- ✅ **AQI Categorization** - Good / Moderate / Unhealthy logic
-- ✅ **Dual Storage** - CSV for PowerBI + MySQL for production
-- ✅ **.env Config Management** - Secure credential handling
-- ✅ **PowerBI Interactive Dashboard**
+### 🔄 Project Workflow / Architecture
+1.  **Data Collection:** `api_collection.py` - Fetched real-time AQI data from API
+2.  **Data Loading & Automation:** `db_loader.py` + `main.py` - Automated data ingestion pipeline
+3.  **Data Cleaning:** `Smart_Air_quality_intelligence_cleaned.csv` - Cleaned using Pandas (handled nulls, duplicates)
+4.  **Data Visualization:** `Dashboard.pbix` - Built interactive dashboard in Power BI
 
-### 📊 PowerBI Dashboard Insights
-### 📸 Dashboard Preview
-![Dashboard Screenshot](Dashboard_image_screenshot.png)
-- City-wise **PM2.5 / PM10** pollution levels
-- **AQI Category** distribution (Good, Moderate, Unhealthy)
-- **Hyderabad Hotspots** - Most polluted areas
-- Time-series trend analysis
+### 📁 Files in this Repository
+- `api_collection.py` - Script for API data collection
+- `db_loader.py` - Loads data into database/storage
+- `main.py` - Main runner file
+- `Smart_Air_quality_intelligence_cleaned.csv` - Final cleaned dataset
+- `Dashboard.pbix` - Power BI dashboard file
+- `Dashboard_image_screenshot.png` - Dashboard preview
+- `.env.example` - Sample env file for API keys
+- `pyproject.toml` - Project dependencies
 
 ### 🛠️ Tech Stack
-- **Python**: Requests, Pandas, SQLAlchemy
-- **Database**: MySQL
-- **BI**: PowerBI
-- **Tools**: python-dotenv, Logging
+- **Python:** Pandas, Requests
+- **API Integration:** OpenWeather / AQI API
+- **Visualization:** Power BI, DAX
+- **Tools:** GitHub, Excel
 
-### ⚙️ How to Run (2 mins)
-```bash
-# 1. Clone repo
-git clone https://github.com/upagna010/upagna_n.git
-cd upagna_n/Air-Quality-Analytics-Python-PowerBI
+### 📊 Dashboard Features
+- City-wise AQI comparison
+- PM2.5 vs PM10 trend analysis
+- Health Risk Category (Good, Moderate, Unhealthy)
+- Time-series pollution trends
 
-# 2. Create virtual env
-python -m venv venv
-venv\Scripts\activate  # Windows
-pip install -r requirements.txt
+### 🚀 How to Run
+1. Clone repo: `git clone ...`
+2. Install requirements from `pyproject.toml`
+3. Add API key in `.env`
+4. Run `python main.py`
+5. Open `Dashboard.pbix` in Power BI Desktop
 
-# 3. Setup env
-copy .env.example .env  # Add your DB credentials
+### 💡 Key Insights
+- Found PM2.5 is the major pollutant in top 3 cities
+- Identified peak pollution hours (8AM & 8PM)
+- Categorized health risk zones for citizens
 
-# 4. Run pipeline
-python main.py
+### 🔮 Future Scope
+- Add predictive model for AQI forecasting
+- Add automated email alerts for high AQI
 
-# 5. Open Dashboard.pbix in PowerBI
-
-🔮 Future EnhancementsAirflow orchestration for daily auto-runStreamlit live web appML prediction for next day AQI👩‍💻 AuthorUpagna Tulasala
-Aspiring Data Analyst | Data Engineer | Python Developer
-📍 Hyderabad, India
-🔗 GitHub: @upagna010
+---
+**Author:** Upagna 
